@@ -45,7 +45,7 @@ const GargoyleTable = new LootTable()
 const GargoyleOnTaskTable = new LootTable()
 	.every(GargoyleTable)
 
-	/* Brittle key can drop on task */
+	/* Brittle key can only drop on task */
 	.tertiary(150, 'Brittle key');
 
 export default new SimpleMonster({
